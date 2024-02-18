@@ -95,7 +95,6 @@ const getPages = async (config, contentType, ids, filters = {}) => {
   const relations = getRelationsFromConfig(config.contentTypes[contentType]);
   const fields = getFieldsFromConfig(config.contentTypes[contentType], true, isLocalized);
 
-  console.log('filters', filters);
   const pages = await noLimit(strapi, contentType, {
     filters: {
       $or: [

@@ -1,6 +1,6 @@
 {
-  "name": "strapi-plugin-sitemap",
-  "version": "3.0.8",
+  "name": "@cipick/strapi-plugin-sitemap",
+  "version": "3.0.9",
   "description": "Generate a highly customizable sitemap XML in Strapi CMS.",
   "strapi": {
     "displayName": "Sitemap",
@@ -43,15 +43,15 @@
     "xml2js": "^0.5.0"
   },
   "author": {
-    "name": "Boaz Poolman",
-    "email": "info@boazpoolman.nl",
-    "url": "https://github.com/boazpoolman"
+    "name": "Ciprian Platica",
+    "email": "platica.ciprian@gmail.com",
+    "url": "https://github.com/cipick"
   },
   "maintainers": [
     {
-      "name": "Boaz Poolman",
-      "email": "info@boazpoolman.nl",
-      "url": "https://github.com/boazpoolman"
+      "name": "Ciprian Platica",
+      "email": "platica.ciprian@gmail.com",
+      "url": "https://github.com/cipick"
     }
   ],
   "peerDependencies": {
@@ -76,9 +76,9 @@
     "typescript": "^5.1.6"
   },
   "bugs": {
-    "url": "https://github.com/boazpoolman/strapi-plugin-sitemap/issues"
+    "url": "https://github.com/cipick/strapi-plugin-sitemap/issues"
   },
-  "homepage": "https://github.com/boazpoolman/strapi-plugin-sitemap#readme",
+  "homepage": "https://github.com/cipick/strapi-plugin-sitemap#readme",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=6.0.0"
